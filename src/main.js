@@ -1,17 +1,10 @@
 const { createApp } = Vue;
 
 createApp({
-  data() {
-    return {}
-  },
-  mounted() {
-    this.initMap();
-  },
-  methods: {
-    initMap() {
-      // 你原来的地图代码放在这里
-      // 示例：
-      // const map = new mapboxgl.Map({ ... })
-    }
-  }
+  template: `
+    <div style="padding: 50px; font-size: 30px; color: #2ecc71; text-align: center;">
+      🎉 Vue 运行成功！<br>
+      这是你的测试页面
+    </div>
+  `
 }).mount('#app')
