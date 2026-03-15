@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<QualityEvaluationReport>
+    <SatelliteID>JL1KF01B</SatelliteID>
+    <Sensor>PMSR4</Sensor>
+    <ProductID>JL1KF01B_PMSR4_20231118110242_200212771_103_0064_001_L3C_PSH</ProductID>
+    <SceneID>JL1KF01B_PMSR4_20231118110242_200212771_103_0064</SceneID>
+    <ProductLevel>L3</ProductLevel>
+    <Bands>4</Bands>
+    <RadQualInfor>
+        <CorrelationCoefficient>0.915834,0.935122,0.872700</CorrelationCoefficient>
+        <DistortionIndex>0.233522,0.198921,0.189502,0.475021</DistortionIndex>
+        <SSIM>0.858249,0.911991,0.695912,0.011560,0.007188,0.008142,0.022258</SSIM>
+        <SA>0.971046,13.821091</SA>
+        <RASE>5.077575</RASE>
+        <ERGAS>57.939587</ERGAS>
+    </RadQualInfor>
+    <GeoQualInfor>
+        <GeoPrecision>3.13</GeoPrecision>
+    </GeoQualInfor>
+    <IntegratedQuality>A</IntegratedQuality>
+</QualityEvaluationReport>

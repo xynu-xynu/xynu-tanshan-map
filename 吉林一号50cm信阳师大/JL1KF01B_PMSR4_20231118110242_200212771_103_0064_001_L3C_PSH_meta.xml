@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<MetaData TimeZone="+0800">
+    <ProductInfo>
+        <SatelliteID>JL1KF01B</SatelliteID>
+        <Sensor>PMSR4</Sensor>
+        <ReceiveStation>CC03</ReceiveStation>
+        <ReceiveTime>2023-11-18 21:38:24</ReceiveTime>
+        <OrbitID>013113</OrbitID>
+        <ProductID>JL1KF01B_PMSR4_20231118110242_200212771_103_0064_001_L3C_PSH</ProductID>
+        <SceneID>JL1KF01B_PMSR4_20231118110242_200212771_103_0064</SceneID>
+        <ProductLevel>L3</ProductLevel>
+        <StartTime>2023-11-18 11:04:21</StartTime>
+        <EndTime>2023-11-18 11:04:24</EndTime>
+        <CenterTime>2023-11-18 11:04:22</CenterTime>
+        <SensorWorkMode>Line Push-Broom</SensorWorkMode>
+        <ImageRowGSD>0.5</ImageRowGSD>
+        <ImageColumnGSD>0.5</ImageColumnGSD>
+        <CloudPercent>1</CloudPercent>
+        <ProductQuality>A</ProductQuality>
+        <Bands>4</Bands>
+        <FUSMethod>B-G-R-NIR</FUSMethod>
+        <DataBits>12</DataBits>
+        <Gain>3.0,2.0,3.5,3.5</Gain>
+        <TDIStages>16,16,8,8</TDIStages>
+        <IntegrationTime>275.409</IntegrationTime>
+        <RollSatelliteAngle>1.00</RollSatelliteAngle>
+        <PitchSatelliteAngle>-0.06</PitchSatelliteAngle>
+        <YawSatelliteAngle>3.21</YawSatelliteAngle>
+        <SolarAzimuth>160.861</SolarAzimuth>
+        <SolarElevation>36.3986</SolarElevation>
+        <SatelliteAzimuth>221.501</SatelliteAzimuth>
+        <SatelliteElevation>83.4328</SatelliteElevation>
+        <CenterLatitude>32.140848</CenterLatitude>
+        <CenterLongitude>114.034005</CenterLongitude>
+        <UpperLeftLatitude>32.155770</UpperLeftLatitude>
+        <UpperLeftLongitude>114.015387</UpperLeftLongitude>
+        <UpperRightLatitude>32.156620</UpperRightLatitude>
+        <UpperRightLongitude>114.051628</UpperRightLongitude>
+        <LowerRightLatitude>32.125924</LowerRightLatitude>
+        <LowerRightLongitude>114.052617</LowerRightLongitude>
+        <LowerLeftLatitude>32.125075</LowerLeftLatitude>
+        <LowerLeftLongitude>114.016387</LowerLeftLongitude>
+        <MapProjection>UTM</MapProjection>
+        <GeodeticDatum>WGS84</GeodeticDatum>
+        <EarthEllipsoid>WGS84</EarthEllipsoid>
+        <AltitudeDatum>WGS84</AltitudeDatum>
+        <AltitudeSystem>EllipsoidHeight</AltitudeSystem>
+        <WKT>
+            <![CDATA[PROJCS["UTM",GEOGCS["WGS_1984",DATUM["WGS_1984",SPHEROID["WGS 84",6378137,298.2572235630016],TOWGS84[0,0,0,0,0,0,0]],PRIMEM["Greenwich",0],UNIT["degree",0.0174532925199433]],UNIT["meters",1],PROJECTION["Transverse_Mercator"],PARAMETER["latitude_of_origin",0],PARAMETER["central_meridian",+117],PARAMETER["scale_factor",0.9996],PARAMETER["false_easting",500000],PARAMETER["false_northing",0]]]]>
+</WKT>
+    </ProductInfo>
+    <ProcessInfo>
+        <ProductTime>2023-11-18 22:47:32</ProductTime>
+        <ProductCity>Changchun</ProductCity>
+        <DataSource>SEC</DataSource>
+        <UsedGCPNum>0</UsedGCPNum>
+        <RadiometricCalibrationInfo>Model</RadiometricCalibrationInfo>
+        <RadiometricMethod>REL</RadiometricMethod>
+        <!--L=DN*Gain+Bias,W*m^(-2)*sr^(-1)*um^(-1)-->
+        <AbsCalibrationGain>0.054783,0.041979,0.039908,0.022752</AbsCalibrationGain>
+        <AbsCalibrationBias>1.160792,0.393999,0.878932,0.535183</AbsCalibrationBias>
+        <MtfCompensation>NO</MtfCompensation>
+        <GeometricCalibrationInfo />
+        <GeometryMethod>GTC</GeometryMethod>
+        <HeightMode>DEM</HeightMode>
+        <DEMAverage />
+        <DEMPrecision />
+        <ResampleNum>2</ResampleNum>
+    </ProcessInfo>
+</MetaData>
