@@ -1,8 +1,17 @@
-import { createApp } from 'vue'
-import ElementPlus from 'element-plus'
-import 'element-plus/dist/index.css' // 这行是样式关键，不能少！
-import App from './App.vue'
+const { createApp } = Vue;
 
-const app = createApp(App)
-app.use(ElementPlus) // 注册 ElementPlus 组件库
-app.mount('#app')
+createApp({
+  data() {
+    return {}
+  },
+  mounted() {
+    this.initMap();
+  },
+  methods: {
+    initMap() {
+      // 你原来的地图代码放在这里
+      // 示例：
+      // const map = new mapboxgl.Map({ ... })
+    }
+  }
+}).mount('#app')
